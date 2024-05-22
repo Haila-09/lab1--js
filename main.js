@@ -84,3 +84,18 @@ function numbers(num){
 console.log(numbers(20))
 
 
+let arrNumbers = [ 1, 2 , 3 ,4 , 5 , 6 , 7, 8 , 9 , 10];
+
+let newArr = []
+
+for(let i = 1 ; i < arrNumbers.length ; i++){
+
+    newArr.push(i * 10)
+    
+}
+console.log(newArr)
+
+let mapArray = arrNumbers.map((e)=> {
+    return e * 10
+})
+console.log(mapArray)
